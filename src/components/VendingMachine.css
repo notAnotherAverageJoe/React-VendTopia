@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .vending-machine {
+    background: #333;
+    border: 5px solid #000;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+  }
+  
+  .vending-machine::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    height: 50px;
+    background: #444;
+    border-radius: 5px;
+  }
+  
+  .vending-machine h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ffb400;
+  }
+  
+  .vending-machine p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .vending-machine ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .vending-machine li {
+    margin: 10px 0;
+    background: #555;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .vending-machine li span {
+    background: #777;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .vending-machine a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ffb400;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .vending-machine a:hover {
+    background-color: #ff9500;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .vending-machine a:active {
+    background-color: #e57b00;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+  }
+  
